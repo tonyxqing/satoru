@@ -1,0 +1,31 @@
+{
+  "name": "satoru",
+  "displayName": "gojo theme",
+  "description": "themes based on gojo's moveset",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hollow Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-color-theme.json"
+      },
+      {
+        "label": "CTR Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red-color-theme.json"
+      },
+      {
+        "label": "CTL Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-color-theme.json"
+      }
+    ]
+  }
+}
